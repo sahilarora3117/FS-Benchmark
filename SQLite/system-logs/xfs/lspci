@@ -1,0 +1,324 @@
+Slot:	00:00.0
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir Root Complex [1630]
+SVendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+SDevice:	Renoir Root Complex [1630]
+
+Slot:	00:00.2
+Class:	IOMMU [0806]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir IOMMU [1631]
+SVendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+SDevice:	Renoir IOMMU [1631]
+
+Slot:	00:01.0
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir PCIe Dummy Host Bridge [1632]
+IOMMUGroup:	0
+
+Slot:	00:01.1
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir PCIe GPP Bridge [1633]
+Driver:	pcieport
+IOMMUGroup:	1
+
+Slot:	00:02.0
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir PCIe Dummy Host Bridge [1632]
+IOMMUGroup:	2
+
+Slot:	00:02.1
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir PCIe GPP Bridge [1634]
+Driver:	pcieport
+IOMMUGroup:	3
+
+Slot:	00:02.2
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir PCIe GPP Bridge [1634]
+Driver:	pcieport
+IOMMUGroup:	4
+
+Slot:	00:02.4
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir PCIe GPP Bridge [1634]
+Driver:	pcieport
+IOMMUGroup:	5
+
+Slot:	00:08.0
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir PCIe Dummy Host Bridge [1632]
+IOMMUGroup:	6
+
+Slot:	00:08.1
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir Internal PCIe GPP Bridge to Bus [1635]
+Driver:	pcieport
+IOMMUGroup:	6
+
+Slot:	00:08.2
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir Internal PCIe GPP Bridge to Bus [1635]
+Driver:	pcieport
+IOMMUGroup:	6
+
+Slot:	00:14.0
+Class:	SMBus [0c05]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	FCH SMBus Controller [790b]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	FCH SMBus Controller [1e21]
+Rev:	51
+Driver:	piix4_smbus
+Module:	i2c_piix4
+Module:	sp5100_tco
+IOMMUGroup:	7
+
+Slot:	00:14.3
+Class:	ISA bridge [0601]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	FCH LPC Bridge [790e]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	FCH LPC Bridge [1e21]
+Rev:	51
+IOMMUGroup:	7
+
+Slot:	00:18.0
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir Device 24: Function 0 [1448]
+IOMMUGroup:	8
+
+Slot:	00:18.1
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir Device 24: Function 1 [1449]
+IOMMUGroup:	8
+
+Slot:	00:18.2
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir Device 24: Function 2 [144a]
+IOMMUGroup:	8
+
+Slot:	00:18.3
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir Device 24: Function 3 [144b]
+Driver:	k10temp
+Module:	k10temp
+IOMMUGroup:	8
+
+Slot:	00:18.4
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir Device 24: Function 4 [144c]
+IOMMUGroup:	8
+
+Slot:	00:18.5
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir Device 24: Function 5 [144d]
+IOMMUGroup:	8
+
+Slot:	00:18.6
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir Device 24: Function 6 [144e]
+IOMMUGroup:	8
+
+Slot:	00:18.7
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir Device 24: Function 7 [144f]
+IOMMUGroup:	8
+
+Slot:	01:00.0
+Class:	VGA compatible controller [0300]
+Vendor:	NVIDIA Corporation [10de]
+Device:	TU106M [GeForce RTX 2060 Mobile] [1f15]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	TU106M [GeForce RTX 2060 Mobile] [1e21]
+Rev:	a1
+Driver:	nvidia
+Module:	nvidiafb
+Module:	nouveau
+Module:	nvidia_drm
+Module:	nvidia
+IOMMUGroup:	9
+
+Slot:	01:00.1
+Class:	Audio device [0403]
+Vendor:	NVIDIA Corporation [10de]
+Device:	TU106 High Definition Audio Controller [10f9]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	TU106 High Definition Audio Controller [1e21]
+Rev:	a1
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+IOMMUGroup:	9
+
+Slot:	01:00.2
+Class:	USB controller [0c03]
+Vendor:	NVIDIA Corporation [10de]
+Device:	TU106 USB 3.1 Host Controller [1ada]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	TU106 USB 3.1 Host Controller [1e21]
+Rev:	a1
+ProgIf:	30
+Driver:	xhci_hcd
+Module:	xhci_pci
+IOMMUGroup:	9
+
+Slot:	01:00.3
+Class:	Serial bus controller [0c80]
+Vendor:	NVIDIA Corporation [10de]
+Device:	TU106 USB Type-C UCSI Controller [1adb]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	TU106 USB Type-C UCSI Controller [1e21]
+Rev:	a1
+Module:	i2c_nvidia_gpu
+IOMMUGroup:	9
+
+Slot:	02:00.0
+Class:	Ethernet controller [0200]
+Vendor:	Realtek Semiconductor Co., Ltd. [10ec]
+Device:	RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [8168]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [208f]
+Rev:	15
+Driver:	r8169
+Module:	r8169
+IOMMUGroup:	10
+
+Slot:	03:00.0
+Class:	Network controller [0280]
+Vendor:	Realtek Semiconductor Co., Ltd. [10ec]
+Device:	RTL8822CE 802.11ac PCIe Wireless Network Adapter [c822]
+SVendor:	Lite-On Communications Inc [11ad]
+SDevice:	RTL8822CE 802.11ac PCIe Wireless Network Adapter [0810]
+Driver:	rtw_8822ce
+Module:	rtw88_8822ce
+IOMMUGroup:	11
+
+Slot:	04:00.0
+Class:	Non-Volatile memory controller [0108]
+Vendor:	Sandisk Corp [15b7]
+Device:	Device [5009]
+SVendor:	Sandisk Corp [15b7]
+SDevice:	Device [5009]
+Rev:	01
+ProgIf:	02
+Driver:	nvme
+Module:	nvme
+NUMANode:	0
+IOMMUGroup:	12
+
+Slot:	05:00.0
+Class:	VGA compatible controller [0300]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	Renoir [1636]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Renoir [1e21]
+Rev:	c6
+Driver:	amdgpu
+Module:	amdgpu
+IOMMUGroup:	6
+
+Slot:	05:00.1
+Class:	Audio device [0403]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	Device [1637]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [1e21]
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+IOMMUGroup:	6
+
+Slot:	05:00.2
+Class:	Encryption controller [1080]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 10h-1fh) Platform Security Processor [15df]
+SVendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+SDevice:	Family 17h (Models 10h-1fh) Platform Security Processor [15df]
+Driver:	ccp
+Module:	ccp
+IOMMUGroup:	6
+
+Slot:	05:00.3
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir USB 3.1 [1639]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Renoir USB 3.1 [201f]
+ProgIf:	30
+Driver:	xhci_hcd
+Module:	xhci_pci
+IOMMUGroup:	6
+
+Slot:	05:00.4
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir USB 3.1 [1639]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Renoir USB 3.1 [201f]
+ProgIf:	30
+Driver:	xhci_hcd
+Module:	xhci_pci
+IOMMUGroup:	6
+
+Slot:	05:00.5
+Class:	Multimedia controller [0480]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Raven/Raven2/FireFlight/Renoir Audio Processor [15e2]
+SVendor:	Unknown vendor [1e21]
+SDevice:	Raven/Raven2/FireFlight/Renoir Audio Processor [1043]
+Rev:	01
+Module:	snd_pci_acp3x
+Module:	snd_rn_pci_acp3x
+IOMMUGroup:	6
+
+Slot:	05:00.6
+Class:	Audio device [0403]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 10h-1fh) HD Audio Controller [15e3]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Family 17h (Models 10h-1fh) HD Audio Controller [1e21]
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+IOMMUGroup:	6
+
+Slot:	06:00.0
+Class:	SATA controller [0106]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	FCH SATA Controller [AHCI mode] [7901]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	FCH SATA Controller [AHCI mode] [1e21]
+Rev:	81
+ProgIf:	01
+Driver:	ahci
+Module:	ahci
+IOMMUGroup:	6
+
+Slot:	06:00.1
+Class:	SATA controller [0106]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	FCH SATA Controller [AHCI mode] [7901]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	FCH SATA Controller [AHCI mode] [1e21]
+Rev:	81
+ProgIf:	01
+Driver:	ahci
+Module:	ahci
+IOMMUGroup:	6
+

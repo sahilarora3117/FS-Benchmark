@@ -1,0 +1,75 @@
+nvme-fio,
+
+"Flexible IO Tester3.25 - Type: Random Read - Engine: IO_uring - Buffered: Yes - Direct: No - Block Size: 2MB - Disk Target: /media/sahilarora/test",
+Higher Results Are Better
+
+"ext4",
+"xfs",2056,2085,2052
+"btrfs",2116,2111,2119
+"ntfs",2236,2247,2222
+"f2fs",2108,2109,2122
+
+"Flexible IO Tester3.25 - Type: Random Read - Engine: IO_uring - Buffered: Yes - Direct: No - Block Size: 2MB - Disk Target: /media/sahilarora/test",
+Higher Results Are Better
+
+"ext4",
+"xfs",1025,1039,1022
+"btrfs",
+"ntfs",
+"f2fs",1051,1051,1057
+
+"Flexible IO Tester3.25 - Type: Random Read - Engine: Linux AIO - Buffered: Yes - Direct: No - Block Size: 2MB - Disk Target: /media/sahilarora/test",
+Higher Results Are Better
+
+"ext4",1275,1280,1256
+"xfs",
+"btrfs",859,835,849
+"ntfs",1593,1562,1410,1480,1569,1367,1530,1552,1565,1618,1418,1583,1503,1628,1467
+"f2fs",1168,1161,1154
+
+"Flexible IO Tester3.25 - Type: Random Read - Engine: Linux AIO - Buffered: Yes - Direct: No - Block Size: 2MB - Disk Target: /media/sahilarora/test",
+Higher Results Are Better
+
+"ext4",634,636,624
+"xfs",
+"btrfs",426,414,421
+"ntfs",793,777,701,737,781,680,761,773,779,805,705,788,748,811,730
+"f2fs",580,577,573
+
+"Flexible IO Tester3.25 - Type: Random Write - Engine: IO_uring - Buffered: Yes - Direct: No - Block Size: 2MB - Disk Target: /media/sahilarora/test",
+Higher Results Are Better
+
+"ext4",957,964,961
+"xfs",1051,1056,1065
+"btrfs",599,469,498,474,471,513,512,461,424,498,456,395,400,481,465
+"ntfs",256,272,324,212,322,369,328,215,177,195,364,181
+"f2fs",435,454,513,396,487,484,452,478,408,512,465,465,410,489,447
+
+"Flexible IO Tester3.25 - Type: Random Write - Engine: IO_uring - Buffered: Yes - Direct: No - Block Size: 2MB - Disk Target: /media/sahilarora/test",
+Higher Results Are Better
+
+"ext4",475,479,477
+"xfs",522,524,529
+"btrfs",296,231,246,234,232,253,252,227,208,246,224,194,197,237,229
+"ntfs",124,132,159,103,158,181,160,104,85,94,178,87
+"f2fs",214,224,253,194,240,238,222,236,201,253,229,229,201,241,220
+
+"Flexible IO Tester3.25 - Type: Random Write - Engine: Linux AIO - Buffered: Yes - Direct: No - Block Size: 2MB - Disk Target: /media/sahilarora/test",
+Higher Results Are Better
+
+"ext4",1021,965,977,1004,1000
+"xfs",1063,1068,1035
+"btrfs",518,473,466,564,475,447,466,566,567,435,505,481
+"ntfs",269,250,261,242,310,212,238,343,281,381,217,279
+"f2fs",452,410,405,388,432,436,484,477,478,469,365,500
+
+"Flexible IO Tester3.25 - Type: Random Write - Engine: Linux AIO - Buffered: Yes - Direct: No - Block Size: 2MB - Disk Target: /media/sahilarora/test",
+Higher Results Are Better
+
+"ext4",507,479,485,498,496
+"xfs",528,531,514
+"btrfs",255,233,229,279,234,220,229,279,280,214,249,237
+"ntfs",131,121,127,117,151,102,116,168,137,187,105,136
+"f2fs",222,201,199,190,213,215,239,235,235,231,179,246
+
+

@@ -1,0 +1,78 @@
+#####
+ntfs - Run 1
+2021-04-11 17:46:31
+#####
+
+7-Zip (a) [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.utf8,Utf16=on,HugeFiles=on,64 bits,16 CPUs x64)
+
+x64
+CPU Freq: 32000000 32000000 32000000 64000000 128000000 256000000 512000000 1024000000 2048000000
+
+RAM size:   15481 MB,  # CPU hardware threads:  16
+RAM usage:   3530 MB,  # Benchmark threads:     16
+
+                       Compressing  |                  Decompressing
+Dict     Speed Usage    R/U Rating  |      Speed Usage    R/U Rating
+         KiB/s     %   MIPS   MIPS  |      KiB/s     %   MIPS   MIPS
+
+22:      37625  1497   2445  36602  |     564292  1573   3059  48129
+23:      35249  1511   2377  35915  |     542745  1557   3016  46959
+24:      33027  1506   2358  35512  |     526524  1558   2967  46216
+25:      30618  1493   2342  34959  |     514250  1555   2942  45767
+----------------------------------  | ------------------------------
+Avr:            1502   2380  35747  |             1561   2996  46767
+Tot:            1531   2688  41257
+
+#####
+ntfs - Run 2
+2021-04-11 17:47:18
+#####
+
+7-Zip (a) [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.utf8,Utf16=on,HugeFiles=on,64 bits,16 CPUs x64)
+
+x64
+CPU Freq: 32000000 64000000 64000000 32000000 128000000 128000000 256000000 1024000000 1024000000
+
+RAM size:   15481 MB,  # CPU hardware threads:  16
+RAM usage:   3530 MB,  # Benchmark threads:     16
+
+                       Compressing  |                  Decompressing
+Dict     Speed Usage    R/U Rating  |      Speed Usage    R/U Rating
+         KiB/s     %   MIPS   MIPS  |      KiB/s     %   MIPS   MIPS
+
+22:      38165  1528   2430  37127  |     540407  1545   2984  46091
+23:      34754  1495   2369  35410  |     531981  1554   2963  46028
+24:      32566  1491   2349  35015  |     518995  1549   2942  45555
+25:      30721  1514   2317  35076  |     510013  1560   2911  45389
+----------------------------------  | ------------------------------
+Avr:            1507   2366  35657  |             1552   2950  45766
+Tot:            1529   2658  40711
+
+#####
+ntfs - Run 3
+2021-04-11 17:48:03
+#####
+
+7-Zip (a) [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.utf8,Utf16=on,HugeFiles=on,64 bits,16 CPUs x64)
+
+x64
+CPU Freq: 64000000 64000000 32000000 64000000 128000000 256000000 512000000 512000000 1024000000
+
+RAM size:   15481 MB,  # CPU hardware threads:  16
+RAM usage:   3530 MB,  # Benchmark threads:     16
+
+                       Compressing  |                  Decompressing
+Dict     Speed Usage    R/U Rating  |      Speed Usage    R/U Rating
+         KiB/s     %   MIPS   MIPS  |      KiB/s     %   MIPS   MIPS
+
+22:      38142  1522   2438  37105  |     539783  1561   2950  46038
+23:      34611  1495   2359  35265  |     518455  1535   2922  44857
+24:      31992  1485   2317  34398  |     516239  1556   2912  45313
+25:      30621  1509   2317  34963  |     506717  1567   2879  45096
+----------------------------------  | ------------------------------
+Avr:            1503   2358  35433  |             1555   2915  45326
+Tot:            1529   2637  40379
+

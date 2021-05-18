@@ -1,0 +1,78 @@
+#####
+f2fs - Run 1
+2021-05-01 09:03:41
+#####
+
+7-Zip (a) [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.utf8,Utf16=on,HugeFiles=on,64 bits,16 CPUs x64)
+
+x64
+CPU Freq: 64000000 64000000 - - - - - - -
+
+RAM size:   15481 MB,  # CPU hardware threads:  16
+RAM usage:   3530 MB,  # Benchmark threads:     16
+
+                       Compressing  |                  Decompressing
+Dict     Speed Usage    R/U Rating  |      Speed Usage    R/U Rating
+         KiB/s     %   MIPS   MIPS  |      KiB/s     %   MIPS   MIPS
+
+22:      39326  1514   2527  38257  |     591505  1535   3288  50450
+23:      34052  1449   2394  34696  |     577077  1542   3239  49929
+24:      32396  1463   2380  34832  |     538241  1493   3166  47244
+25:      30913  1488   2372  35296  |     553506  1561   3156  49260
+----------------------------------  | ------------------------------
+Avr:            1479   2418  35770  |             1532   3212  49221
+Tot:            1506   2815  42496
+
+#####
+f2fs - Run 2
+2021-05-01 09:04:26
+#####
+
+7-Zip (a) [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.utf8,Utf16=on,HugeFiles=on,64 bits,16 CPUs x64)
+
+x64
+CPU Freq: - - - - - - - - -
+
+RAM size:   15481 MB,  # CPU hardware threads:  16
+RAM usage:   3530 MB,  # Benchmark threads:     16
+
+                       Compressing  |                  Decompressing
+Dict     Speed Usage    R/U Rating  |      Speed Usage    R/U Rating
+         KiB/s     %   MIPS   MIPS  |      KiB/s     %   MIPS   MIPS
+
+22:      39785  1547   2502  38704  |     582882  1557   3193  49714
+23:      35517  1489   2430  36188  |     575964  1572   3171  49833
+24:      33232  1490   2398  35731  |     554781  1550   3143  48696
+25:      31340  1494   2395  35783  |     542888  1550   3117  48315
+----------------------------------  | ------------------------------
+Avr:            1505   2431  36602  |             1557   3156  49140
+Tot:            1531   2794  42871
+
+#####
+f2fs - Run 3
+2021-05-01 09:05:08
+#####
+
+7-Zip (a) [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.utf8,Utf16=on,HugeFiles=on,64 bits,16 CPUs x64)
+
+x64
+CPU Freq: - - - - - - - - -
+
+RAM size:   15481 MB,  # CPU hardware threads:  16
+RAM usage:   3530 MB,  # Benchmark threads:     16
+
+                       Compressing  |                  Decompressing
+Dict     Speed Usage    R/U Rating  |      Speed Usage    R/U Rating
+         KiB/s     %   MIPS   MIPS  |      KiB/s     %   MIPS   MIPS
+
+22:      39004  1497   2535  37944  |     579456  1568   3153  49422
+23:      35682  1505   2416  36356  |     565720  1564   3131  48947
+24:      33757  1511   2403  36296  |     556190  1573   3104  48820
+25:      31505  1507   2387  35971  |     542176  1568   3078  48252
+----------------------------------  | ------------------------------
+Avr:            1505   2435  36642  |             1568   3116  48860
+Tot:            1536   2776  42751
+
